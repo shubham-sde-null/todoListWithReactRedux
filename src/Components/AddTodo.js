@@ -4,7 +4,7 @@ import styles from "./AppTodo.styles";
 function AddTodo({ addTodo }) {
   let [todo, setTodo] = useState("");
   return (
-    <div>
+    <div className="addTodo">
       <input
         className="placeholder"
         type="text"

@@ -4,11 +4,12 @@ import AddTodo from "../Components/AddTodo";
 import TodoComponent from "../Components/TodoComponent";
 import { addTask, completedTask, deleteTask } from "../redux/actions";
 import styles from "./Main.styles";
+import "./Main.css";
 export const Main = (props) => {
-  console.log("main", props.taskItems);
+  // console.log("main", props.taskItems);
   return (
-    <div style={styles.appContainer}>
-      <div style={styles.contaier}>
+    <div style={styles.appContainer} id="main">
+      <div style={styles.contaier} id="mainChild">
         <h1 style={styles.titleStyle}>ToDo List</h1>
         <div style={styles.inputWrapper}>
           {" "}

@@ -1,0 +1,15 @@
+/* .todoComponent {
+
+} */
+
+@media screen and (max-width: 600px) {
+    .todoComponent {
+        /* border: 2px solid yellow; */
+        width: 100%;
+        /* min-height: 10rem; */
+        /* border: 1px solid red !important; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
